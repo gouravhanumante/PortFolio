@@ -1,0 +1,170 @@
+.list-a-text {
+  font-size: 14px;
+  margin: 20px 17px;
+}
+.nav {
+  width: 36rem;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 2px 60px 2px;
+}
+  /* BODY */
+  
+  /* left body data */
+  .name {
+    font-size: 44px;
+}
+
+      .occupation {
+        font-size: 22px;
+        padding: 2px 5px;
+    }
+  
+  li.work-list-individual {
+    font-size: 15px;
+  }
+  
+  /* Hire Button */
+  
+  #a {
+    margin: 24px 1px;
+    padding: 7px 13px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+  /* hire me btn end */
+  
+  /* right image */
+  img.right-png {
+    width: 25vh;
+    margin: 58px 40px;
+}
+  .left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height:70vh;
+  }
+
+/* form */
+
+
+
+
+
+.left-form {
+  background-color: white;
+  padding: 18px 136px;
+}
+
+.form-box input {
+  background-color: gainsboro;
+  border: none;
+  padding: 3px 19px;
+}
+.label-contact-form {
+  padding: 1px 2px;
+} 
+
+
+#a2 {
+
+ 
+  padding: 8px 32px;
+  font-size: 14px;
+
+} 
+
+
+
+/* slider */
+/* slider */
+.slider-img {
+  /* position: absolute; */
+  width: 425px;
+  height: 240px;
+  display: none;
+}
+.flex {
+  /* position: absolute;
+    top: 50%; */
+  display: flex;
+  justify-content: center;
+  padding: 73px 36px;
+  align-items: center;
+  left: 50%;
+}
+.slider {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.slider__btn {
+    z-index: 10;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    font-family: inherit;
+    color: #333;
+    border-radius: 50%;
+    height: 5.5rem;
+    width: 5.5rem;
+    font-size: 3.25rem;
+    cursor: pointer;
+}
+
+.slider__btn--right {
+  right: 5%;
+  transform: translate(2px);
+}
+
+.slider__btn--left {
+  left: 5%;
+  transform: translate(2px);
+}
+
+.active__slide {
+  display: block;
+}
+
+/* EXPANDING CARDS START */
+.ec-container .ec-panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 36vh;
+  border-radius: 42px;
+  color: black;
+  cursor: pointer;
+  flex: 0.5;
+  position: relative;
+  padding: 1px 6px;
+  transition: flex 0.7s ease-in;
+  margin: 18px 13px;
+}
+
+.ec-panel.active{
+  flex: 5;
+}
+/* EXPANDING CARDS END */
+
+.body2 {
+  background: url(../../img/whiteBG3.jpg) no-repeat center center/cover;
+  height: 116vh;
+  width: 100vw;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -100;
+  overflow: hidden;
+  filter: blur(30px);
+}

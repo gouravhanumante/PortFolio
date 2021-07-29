@@ -1,0 +1,180 @@
+.nav {
+  width: 32rem;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.list-a-text {
+  font-size: 15px;
+  margin: 17px 5px;
+}
+
+/* BODY */
+
+/* left body data */
+
+.body-flex {
+  height: 100vh;
+}
+
+.name {
+
+  font-size: 60px;
+}
+
+
+.occupation {
+  font-size: 25px;
+}
+
+li.work-list-individual {
+  font-size: 15px;
+}
+
+/* Hire Button */
+
+#a {
+  margin: 25px 1px;
+  padding: 7px 13px;
+  font-size: 13px;
+}
+/* hire me btn end */
+
+/* right image */
+img.right-png {
+  width: 27vh;
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+/* form */
+
+/* form */
+
+
+
+
+.left-form {
+  background-color: white;
+  padding: 18px 136px;
+}
+
+.form-box input {
+  background-color: gainsboro;
+  border: none;
+  padding: 3px 19px;
+}
+.label-contact-form {
+  padding: 1px 2px;
+} 
+
+
+#a2 {
+
+ 
+  padding: 8px 32px;
+  font-size: 14px;
+
+} 
+
+/* slider */
+.slider-img {
+  /* position: absolute; */
+  width: 518px;
+  height: 285px;
+  display: none;
+}
+.flex {
+  /* position: absolute;
+    top: 50%; */
+  display: flex;
+  justify-content: center;
+  padding: 73px 36px;
+  align-items: center;
+  left: 50%;
+}
+.slider {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.slider__btn {
+    z-index: 10;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    font-family: inherit;
+    color: #333;
+    border-radius: 50%;
+    height: 5.5rem;
+    width: 5.5rem;
+    font-size:3.25rem;
+    cursor: pointer;
+}
+
+.slider__btn--right {
+  right: 5%;
+  transform: translate(2px);
+}
+
+.slider__btn--left {
+  left: 5%;
+  transform: translate(2px);
+}
+
+.active__slide {
+  display: block;
+}
+
+/* EXPANDING CARDS START */
+.ec-container .ec-panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 52vh;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+  flex: 0.5;
+  position: relative;
+  padding: 2px 100px;
+  transition: flex 0.7s ease-in;
+  margin: 19px 16px;
+}
+
+.body2 {
+  background: url(../../img/whiteBG3.jpg) no-repeat center center/cover;
+  height: 109vh;
+  width: 100vw;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -100;
+  overflow: hidden;
+  filter: blur(30px);
+}
+
+.ec-panel h1 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 14px;
+  font-family: 'Kanit', sans-serif;
+  left: 57px;
+  opacity: 0;
+  padding: 4px 10px;
+  margin: 0;
+  color: black;
+  background-color: #e8e6ff;
+  border-radius: 4px;
+}
+
+.ec-panel.active{
+  flex: 5;
+}
+/* EXPANDING CARDS END */
