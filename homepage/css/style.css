@@ -6,22 +6,8 @@ box-sizing: border-box;
   /* font-family: 'Metrophobic', sans-serif; */
 
 }
-
 body {
-  border: none;
-}
-
-.body2{
-
-  background: url("../../img/whiteBG3.jpg") no-repeat center center/cover;
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  z-index: -100;
-  overflow: hidden;
-  filter: blur(30px);
+  background: url("../img/whiteBG3.jpg") no-repeat center center/cover;
 }
 /* NavBAR */
 .navbar {
@@ -63,9 +49,7 @@ body {
   text-decoration: none;
   transition: 0.5s;
 }
-.list-a-text:hover {
- text-decoration: line-through;
-}
+
 
 /* BODY */
 .body-flex {
@@ -79,7 +63,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 73vh;
 }
 
 /* left body data */
@@ -355,7 +338,7 @@ width: 0;
 }
 
 /* SECTION 2 CONTAINER */
-.section-3-container{
+.section-2-container{
 background-color: white;
 width: 100%;
 height: 92vh;
@@ -430,97 +413,3 @@ height: 92vh;
 
 
 
-
-
-
-/* SECTION-2 EXPANDING CARDS */
-.section-4 {
-  display: flex;
-  flex-direction: column;
-  background-color: #e8e6ff;
-  padding: 33px 2px;
-}
-.ec-container {
-  display: flex;
-  margin: 0px 20px;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 2px;
-  flex: 2.5;
-  font-family: 'Kanit', sans-serif;
-}
-.ec-container .ec-panel{
-  
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 52vh;
-  border-radius: 50px;
-  color: black;
-  cursor: pointer;
-  flex: 0.5;
-  position: relative;
-  padding: 2px 68px;
-  transition: flex 0.7s ease-in;
-  margin: 19px 16px;
-}
-
-/* .ec-panel-1{
-  background: url('../img/expanding-cards-ec/html.jpg')no-repeat center center/cover;
-}
-.ec-panel-2{
-  background: url('../img/expanding-cards-ec/css.jpg')no-repeat center center/cover;
-}
-.ec-panel-3{
-  background: url('../img/expanding-cards-ec/js.jpg')no-repeat center center/cover;
-}
-.ec-panel-4{
-  background: url('../img/expanding-cards-ec/nodejs.jpg')no-repeat center center/cover;
-}
-.ec-panel-5{
-  background: url('../img/expanding-cards-ec/mongodb.jpg')no-repeat center center/cover;
-} */
-
-
-
-
-
-.ec-panel-1{
-  background: url('../img/expanding-cards-ec/html.jpg')no-repeat center center/cover;
-}
-.ec-panel-2{
-  background: url('../img/expanding-cards-ec/css.jpg')no-repeat center center/cover;
-}
-.ec-panel-3{
-  background: url('../img/expanding-cards-ec/js.jpg')no-repeat center center/cover;
-}
-.ec-panel-4{
-  background: url('../img/expanding-cards-ec/nodejs.jpg')no-repeat center center/cover;
-}
-.ec-panel-5{
-  background: url('../img/expanding-cards-ec/mongodb.jpg')no-repeat center center/cover;
-}
-
-  
-.ec-panel.active{
-  flex: 5;
-}
-.ec-panel h1{
-  font-size: 20px;
-  position: absolute;
-  bottom: 14px;font-family: 'Kanit', sans-serif;
-  left: 10px;
-  opacity: 0;
-  padding: 4px 10px;
-  margin: 0;
-  color: black;
-  background-color: #e8e6ff;
-  border-radius: 4px;
-}
-
-.ec-panel.active h1 {
-  opacity: 1;
-  transition: opacity 0.5s ease-in 0.4s;
-  margin: 2px 39px;
-}
-/* EXPANDING CARDS ENDS HERE */
